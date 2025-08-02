@@ -7,7 +7,6 @@ const titulo = document.querySelector('.app__title')
 console.log(teste)
 const botoes = document.querySelectorAll('.app__card-button')
 console.log(tempoDecorridoEmSegundos)
-const teste = "dsd"
 
 const startPauseBt = document.querySelector('#start-pause')
 const musicaFocoInput = document.querySelector('#alternar-musica')
@@ -22,7 +21,6 @@ const audioTempoFinalizado = new Audio('./sons/beep.mp3')
 
 let tempoDecorridoEmSegundos = 1500
 let intervaloId = null
-console.log("teset")
 musica.loop = true
 
 musicaFocoInput.addEventListener('change', () => {
