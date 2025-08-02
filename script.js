@@ -18,6 +18,7 @@ const musica = new Audio('/sons/luna-rise-part-one.mp3')
 const audioPlay = new Audio('/sons/play.wav');
 const audioPausa = new Audio('/sons/pause.mp3');
 const audioTempoFinalizado = new Audio('./sons/beep.mp3')
+const certooooo = 12
 
 let tempoDecorridoEmSegundos = 1500
 let intervaloId = null
