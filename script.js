@@ -7,7 +7,7 @@ const titulo = document.querySelector('.app__title')
 const botoes = document.querySelectorAll('.app__card-button')
 console.log(tempoDecorridoEmSegundos)
 const teste = "dsd"
-console.log(teste)
+
 const startPauseBt = document.querySelector('#start-pause')
 const musicaFocoInput = document.querySelector('#alternar-musica')
 const iniciarOuPausarBt = document.querySelector('#start-pause span')
